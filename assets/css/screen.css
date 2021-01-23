@@ -3137,7 +3137,7 @@ Usage (In Ghost editor):
   }
 }
 
-/* toc styling from https://ghost.org/docs/tutorials/adding-a-table-of-contents/#styling-the-table-of-contents*/
+/* toc styling from https://ghost.org/docs/tutorials/adding-a-table-of-contents/#styling-the-table-of-contents */
 
 /* Offset headings from fixed header */
 .post-content h2::before,
@@ -3206,4 +3206,9 @@ body {
 }
 ol.toc-list {
   margin: 0;
+}
+
+/* remove header */
+.home-header-hide {
+  display: none;
 }
